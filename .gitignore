@@ -1,0 +1,12 @@
+#----- Panel Admin -----
+#SEGURIDAD
+**/.env
+
+#Dependencias
+Django/pyvenv.cfg
+Django/Lib/
+Django/Scripts/
+Django/Include/
+
+#Cache
+Django/config/__pycache__
