@@ -1,75 +1,76 @@
 <!DOCTYPE html>
 <html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
     <script type="module" src="index.js"></script>
 
-    <div class="header">
-        <header class="header__portfolio">
-            <h1 class="header__portfolio--principal-title">Mein Portfolio</h1>
-            <h2 class="header__portfolio--personal-brang">I.G.L</h2>
-        </header>
-    </div>
+    <header class="portfolio-header">
+        <h1 class="portfolio-header--title">Mein Portfolio</h1>
+        <h2 class="portfolio-header--brand">I.G.L</h2>
+    </header>
 
-    <div class="about">
-        <header class="about__header">
-            <h1 class="about__header--block-title">Sobre Mi</h1>
-        </header>
+    <section class="about">
+        <h2 class="about__title">Sobre Mi</h2>
         <div class="about__content">
-            <p class="about__content--personal-biography">
-                Estudiante de la Carrera de Ingenieria de Software de la Universidad cursando su Quinto Semestre, 
-                participante de <a href="https://icpc.global/" target="_blank" rel="noopener noreferrer">ICPC (International Collegiate Programming Contest)</a>, 
+            <p class="about__biography">
+                Estudiante de la Carrera de Ingenieria de Software de la Universidad cursando su Quinto Semestre, <br />
+                participante de <a href="https://icpc.global/" target="_blank" rel="noopener noreferrer">ICPC (International Collegiate Programming Contest)</a>, <br />
                 entusiasta del mundo de la tcnologia y motivado a conocer el mundo.
             </p>
-            <img class="about__content--personal-picture" src="/images/CC-2224.png"/>
+            <img class="about__picture" src="/images/CC-2224.png" alt="Foto personal"/>
         </div>
-    </div>
+    </section>
 
-    <div class="projects">
-        <header class="projects__header">
-            <h1 class="projects__header--block-title">Mis Proyectos</h1>
-        </header>
-        <div class="projects__content">
-            <p class="projects__content--project-description">
-                Biblioteca Virtual: Un software orientado a la gestion de libros y prestamos, referentes a su uso diario.
-            </p>
+    <section class="projects">
+        <h2 class="projects__title">Mis Proyectos</h2>
+        <div class="projects__grid">
+            <article class="project-card">
+                <h3 class="project-card__title">Biblioteca Virtual</h3>
+                <p class="project-card__description">Un software orientado a la gestión de libros y préstamos, referentes a su uso diario.</p>
+            </article>
 
-            <p class="projects__content--project-description">
-                Gestor de Envios: Un software orientado a la gestion, organizacion y supervision de envios de paquetes a traves de ciudades.
-            </p>
+            <article class="project-card">
+                <h3 class="project-card__title">Gestor de Envíos</h3>
+                <p class="project-card__description">Un software orientado a la gestión, organización y supervisión de envíos de paquetes a través de ciudades.</p>
+            </article>
 
-            <p class="projects__content--project-description">
-                Simulador de Aruitectura Von Neumann: Un software la implemtacion de una computadora a traves de sus distintos componentes.
-            </p>
+            <article class="project-card">
+                <h3 class="project-card__title">Simulador de Arquitectura Von Neumann</h3>
+                <p class="project-card__description">Un software para la implementación de una computadora a través de sus distintos componentes.</p>
+            </article>
         </div>
-    </div>
+    </section>
 
-    <div class="skills">
-        <header class="skills__header">
-            <h1 class="skills__header--block-title">Experiencia</h1>
-        </header>
+    <section class="skills">
+        <h2 class="skills__title">Experiencia</h2>
         <div class="skills__content">
-            <p class="skills__content--skill--description">
-                Secretario de la Sociedad Cientifa Estudiantil de Ingenieria de Software: Encargado de administrar, 
-                supervisar y verificar las operaciones de la Sociedad
+            <p class="skills__description">
+                Secretario de la Sociedad Cientifa Estudiantil de Ingenieria de Software: Encargado de administrar, <br />
+                supervisar y verificar las operaciones de la Sociedad (2024-2025).
             </p>
         </div>
-    </div>
+    </section>
 
-    <div class="contact">
-        <header class="contact__header">
-            <h1 class="contact__header--block-title">Experiencia</h1>
-        </header>
+    <section class="contact">
+        <h2 class="contact__title">Contacto</h2>
         <div class="contact__content">
-            <a class="contact__content--logo-app" href="https://www.linkedin.com/in/israel-gutierrez-lara-424872374/" target="_blank" rel="noopener noreferrer">
-                <img src="/images/linkedin.png"/>
+            <a class="contact__link" href="https://www.linkedin.com/in/israel-gutierrez-lara-424872374/" target="_blank" rel="noopener noreferrer">
+                <img src="/images/linkedin.png" alt="LinkedIn"/>
             </a>
             
-            <a class="contact__content--logo-app" href="mailto:is.gt.lar@gmail.com" target="_blank" rel="noopener noreferrer">
-                <img src="images/gmail.png"/>
+            <a class="contact__link" href="mailto:is.gt.lar@gmail.com" target="_blank" rel="noopener noreferrer">
+                <img src="images/gmail.png" alt="Gmail"/>
             </a>
         </div>
-    </div>
+    </section>
 
     <div class="blog">
 
     </div>
+</body>
 </html>
