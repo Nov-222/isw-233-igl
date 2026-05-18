@@ -1,0 +1,44 @@
+/* blocks/about.css */
+.about {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.about__title {
+    font-size: 32px;
+    color: var(--color-text-light);
+    -webkit-text-stroke: 1px var(--color-text-dark); /* Borde del título simulado */
+    margin-bottom: 20px;
+}
+
+.about__content {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.about__biography {
+    background-color: var(--color-bg-card-light);
+    border: 1px solid var(--color-primary);
+    padding: 25px;
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 0;
+    flex: 2; /* Toma más espacio horizontal */
+}
+
+.about__link {
+    color: var(--color-primary);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.about__picture {
+    width: 180px;
+    height: 180px;
+    background-color: var(--color-bg-card-light);
+    border: 1px solid var(--color-text-dark);
+    object-fit: cover;
+    flex: 1; /* Mantiene su tamaño respecto al texto */
+}

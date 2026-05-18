@@ -1,0 +1,27 @@
+/* blocks/portfolio-header.css */
+.portfolio-header {
+    background-color: var(--color-primary);
+    width: 100%;
+    max-width: 1000px;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 20px;
+    color: var(--color-text-light);
+    clip-path: polygon(50% 0%, 100% 100%, 0% 100%); /* Genera el efecto de triángulo en el techo */
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; /* Empuja el texto hacia la base del triángulo */
+}
+
+.portfolio-header__title {
+    font-size: 24px;
+    margin: 0;
+    font-weight: normal;
+}
+
+.portfolio-header__brand {
+    font-size: 16px;
+    margin: 5px 0 10px 0;
+    font-weight: bold;
+}

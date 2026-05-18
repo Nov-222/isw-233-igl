@@ -1,0 +1,30 @@
+/* blocks/skills.css */
+.skills {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.skills__title {
+    font-size: 32px;
+    color: var(--color-text-light);
+    -webkit-text-stroke: 1px var(--color-text-dark);
+    margin-bottom: 20px;
+}
+
+.skills__content {
+    display: flex;
+    justify-content: center; /* Centra la caja horizontalmente */
+}
+
+.skills__description {
+    background-color: var(--color-bg-card-light);
+    border: 1px solid #4A90E2; /* Tono azul sutil para delimitar la caja del Figma */
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    line-height: 1.5;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}

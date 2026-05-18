@@ -1,0 +1,30 @@
+/* index.css */
+
+/* Variables de diseño según tu Figma */
+:root {
+    --color-bg-main: #D9D2C5;       /* Fondo color arena de la página */
+    --color-primary: #800020;       /* Guinda/Vino de los contenedores y techo */
+    --color-text-dark: #333333;     /* Color de texto principal */
+    --color-text-light: #FFFFFF;    /* Texto blanco para contrastes */
+    --color-bg-card-light: #F4F1EA; /* Fondo crema claro de la bio y la experiencia */
+    --font-base: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+/* Estilos de reinicio base para la página */
+body {
+    background-color: var(--color-bg-main);
+    color: var(--color-text-dark);
+    font-family: var(--font-base);
+    margin: 0;
+    padding: 0 20px 40px 20px; /* Margen lateral para que respire en pantallas */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* IMPORTACIÓN DE BLOQUES MODULARES */
+@import './blocks/portfolio-header.css';
+@import './blocks/about.css';
+@import './blocks/projects.css';
+@import './blocks/skills.css';
+@import './blocks/contact.css';

@@ -1,0 +1,46 @@
+/* blocks/projects.css */
+.projects {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 40px;
+}
+
+.projects__title {
+    font-size: 32px;
+    color: var(--color-text-light);
+    -webkit-text-stroke: 1px var(--color-text-dark);
+    margin-bottom: 20px;
+}
+
+/* El contenedor Grid para posicionar las cards en 3 columnas */
+.projects__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px;
+}
+
+/* ELEMENTO INDEPENDIENTE INTERNO: La tarjeta de proyecto */
+.project-card {
+    background-color: var(--color-primary);
+    color: var(--color-text-light);
+    padding: 25px;
+    border-radius: 20px; /* Bordes redondeados idénticos a tu Figma */
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.project-card__title {
+    font-size: 18px;
+    margin: 0;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    padding-bottom: 5px;
+}
+
+.project-card__description {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
